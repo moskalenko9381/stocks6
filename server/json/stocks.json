@@ -1,0 +1,1 @@
+[{"id":"0","name":"First","low":"normal","maxValue":110,"count":100,"price":13},{"id":"1","name":"Second","low":"uniform","maxValue":110,"count":100,"price":273},{"id":"2","name":"Third","low":"normal","maxValue":1000,"count":100,"price":2289},{"id":"3","name":"Fourth","low":"uniform","maxValue":200,"count":100,"price":243}]

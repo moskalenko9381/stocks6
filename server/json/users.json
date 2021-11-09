@@ -1,0 +1,7 @@
+[
+  {"id":0,"name":"test1","money":1100},
+  {"id":1,"name":"test2","money":600},
+  {"id":2,"name":"liza","money":8888},
+  {"id":3,"name":"limosk","money":500},
+  {"id":"4","name":"test3","money":1000}
+]

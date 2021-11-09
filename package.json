@@ -2,14 +2,17 @@
   "name": "stocks6",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.15.0",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "body-parser": "latest",
+    "express": "latest",
+    "immutable": "^4.0.0-rc.12",
+    "morgan": "^1.10.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "socket.io-client": "2.4.0",
+    "w3-css": "^4.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,10 +21,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -34,5 +34,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "http-errors": "^1.8.0",
+    "react-router-dom": "^5.1.2",
+    "socket.io": "^2.3.0"
   }
 }
